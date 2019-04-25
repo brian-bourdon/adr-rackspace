@@ -1,9 +1,11 @@
 ## Introduction
 
-* Prologue (résumé)
-* Discussion (contexte)
-* Solution (décision)
-* Conséquences (résultats)
+* Contexte
+* Problématique
+* Use case 
+* Scénarios d’attribut de qualité
+* Vues de structures architecturales
+
 
 ## Spécifications ##
 
