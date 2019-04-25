@@ -6,12 +6,12 @@
 * Scénarios d’attribut de qualité
 * Vues de structures architecturales
 
-Mailtrust est une entreprise axée sur le service à la clientèle. Il est extrêmement important que les techniciens de l'assistance    technique puissent examiner les journaux de messagerie afin de résoudre les problèmes des clients.
+Mailtrust est une entreprise axée sur le service à la clientèle. Il est important que les techniciens de l'assistance technique puissent examiner les journaux de messagerie afin de résoudre les problèmes des clients.
 
 ## Logging V1.0 ##
 
 * Contexte:
-Les logs sont stockés dans des fichiers texte sur le disque local de chaque serveur de messagerie et sont conservés pendant 14 jours. Les techniciens de support n’ont pas accès au serveur et doivent créer un ticket auxingenieurs pour que ces derniers leurs transmettent.
+Les logs sont stockés dans des fichiers texte sur le disque local de chaque serveur de messagerie et sont conservés pendant 14 jours. Les techniciens de support n’ont pas accès au serveur et doivent créer un ticket aux ingenieurs pour que ces derniers leurs transmettent.
 * Problématique:
 Si l'on depasse une douzaine de serveurs, ce processus manuel de connexion à chaque serveur prend trop de temps aux ingénieurs. (perte d'éfficacité)
 * Use case:
@@ -19,7 +19,8 @@ En tant que technicien de support je veux pouvoir accéder aux logs efficacement
 * Attributs qualités
 Efficacité
 Maintenabilité
-* Structures architecturales
+* Structures architecturales:
+Voir Logging V1.0.png
 
 ## Logging V2.0 ##
 
@@ -35,11 +36,12 @@ Efficacité
 Maintenabilité
 Fiablité
 * Structures architecturales
+Voir Logging V2.0.png
 
 ## Logging V3.0 ##
 
 * Contexte:
-Implémentation de Apache Hadoop. Hadoop est une implémentation open source de Google File System et de MapReduce ..., un système spécialement conçu pour le traitement de données distribuées à grande échelle
+Implémentation de Apache Hadoop. Hadoop est une implémentation open source de Google File System et de MapReduce, un système spécialement conçu pour le traitement de gros volume de données.
 * Problématique:
  Les seuls problèmes rencontrés sont leurs propres bogues.
 * Use case:
@@ -49,6 +51,3 @@ Efficacité
 Maintenabilité
 Fiablité
 Stabilité
-* Structures architecturales
-
-
