@@ -9,10 +9,10 @@
 
 * Contexte
 * Problématique
-* Dans le contexte de (cas d’utilisation)br>
-faire face (préoccupation)br>
-nous avons décidé pour (option)br>
-à atteindre (qualité)br>
+* Dans le contexte de (cas d’utilisation)
+faire face (préoccupation)
+nous avons décidé pour (option)
+à atteindre (qualité)
 accepter (inconvénient).
 * Discussion (contexte)
 * Attributs qualités
