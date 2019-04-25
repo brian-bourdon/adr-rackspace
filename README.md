@@ -39,16 +39,16 @@ Fiablité
 ## Logging V3.0 ##
 
 * Contexte:
-Mise en place d'un outil de recherche de logs que les techniciens du support technique utilisent directement, sans impliquer les ingénieurs. L’équipe de support a reçu un outil Web permettant de rechercher les logs.
-Tous les logs sont indexés dans une base de données MySQL
+Implémentation de Apache Hadoop. Hadoop est une implémentation open source de Google File System et de MapReduce ..., un système spécialement conçu pour le traitement de données distribuées à grande échelle
 * Problématique:
-Au fur et à mesure que les tables grandissent, l'indexation de chaque entrée insérée devient de plus en plus lente. Au cours des premières heures de test, les insertions ont commencé à ralentir et ne pouvaient plus suivre le rythme de réception des données.
+ Les seuls problèmes rencontrés sont leurs propres bogues.
 * Use case:
 En tant que technicien de support je veux pouvoir accéder aux logs efficacement afin de traiter la demande client.
 * Attributs qualités
 Efficacité
 Maintenabilité
 Fiablité
+Stabilité
 * Structures architecturales
 
 
